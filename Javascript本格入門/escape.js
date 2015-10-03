@@ -1,1 +1,1 @@
-window.alert('わんわん！\rわんわん！');
+window.alert("わんわん！\r\nきゃんきゃん！");
