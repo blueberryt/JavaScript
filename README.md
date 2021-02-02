@@ -1,4 +1,4 @@
-# Java Script
+# JavaScript
 
 - 実践 Type Script のコードを試すためのお勉強レポジトリ。
 - :memo: https://www.notion.so/risacan/TypeScript-BFF-Next-js-Nuxt-js-f44e1b8b35ae484298ff91515fda7f48
