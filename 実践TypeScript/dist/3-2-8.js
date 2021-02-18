@@ -7,4 +7,4 @@ console.log(list);
 var message = list.reduce(function (pref, current) { return pref + " " + current; });
 console.log(message);
 var list2 = [["this", "is"], ["a", "test"]];
-var flatten = list2.flat();
+// const flatten  =  list2.flat()
