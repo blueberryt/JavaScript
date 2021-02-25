@@ -62,5 +62,12 @@
   },
   "include": [
     "src/**/*",
+  ],
+  "exclude": [
+    "src/3-5-1.ts",
+    "src/3-5-3.ts",
+    "src/3-5-4.ts",
+    "src/3-5-5.ts",
+    "src/3-5-7.ts",
   ]
 }
