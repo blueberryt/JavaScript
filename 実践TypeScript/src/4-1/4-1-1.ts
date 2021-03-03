@@ -1,4 +1,5 @@
-function getFormattedValue(value: number | null ) {
+function getFormattedValue(value: number | null) {
+  if (value === null) return "-- pt"
   return `${value.toFixed(1)} pt`
 }
 
