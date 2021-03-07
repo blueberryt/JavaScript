@@ -1,5 +1,5 @@
 declare type State = {
-    readonly id: number;
+    id: number;
     name: string;
 };
-declare const state: State;
+declare const state: Readonly<State>;

@@ -1,12 +1,12 @@
 type State = {
-  readonly id: number
+  id: number
   name: string
 }
 
-const state: State = {
+const state: Readonly<State> = {
   id: 1,
   name: "taro"
 }
 
-state.name = "Hanako"
-// state.id = 2 エラる…
+// state.name = "Hanako" エラる
+// state.id = 2 エラる
