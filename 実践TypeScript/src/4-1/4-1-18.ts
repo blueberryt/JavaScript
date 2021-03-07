@@ -3,10 +3,11 @@ type State = {
   name: string
 }
 
-const state: Readonly<State> = {
+const state: State = {
   id: 1,
   name: "taro"
 }
 
-// state.name = "Hanako" エラる
-// state.id = 2 エラる
+const frozenState = Object.freeze(state)
+// frozenState.name = "Hanako" エラる
+// frozenState.id = 2 エラる
