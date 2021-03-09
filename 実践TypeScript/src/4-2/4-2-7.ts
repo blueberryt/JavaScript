@@ -1,6 +1,6 @@
 type User1 = {
   name: string
-  [k: string]: any
+  [k: string]: number | string
 }
 const userA: User1 = {
   name: "Taro",
