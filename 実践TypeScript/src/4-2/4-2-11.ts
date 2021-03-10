@@ -2,7 +2,7 @@ type Answer = "mighty" | "lot" | "few" | "entirely"
 type User2 = {
   name: string
   enquete: {
-    [k: string]: Answer
+    [k: string]: Answer | undefined
   }
 }
 
@@ -14,4 +14,4 @@ const userA2: User2 = {
   }
 }
 const x2 = userA2.enquete["exercise_habits"]
-const y2 = userA2.enquete["steps_per_day"] // 存在しないのに推論されてる
+const y2 = userA2.enquete["steps_per_day"]
