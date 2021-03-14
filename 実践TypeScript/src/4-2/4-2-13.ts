@@ -13,5 +13,5 @@ const userA13: User13 = {
   }
 }
 
-const x = userA13.enquete["exercise_habits"]
+const x13 = userA13.enquete["exercise_habits"]
 // const y = userA13.enquete["steps_per_day"] エラる
