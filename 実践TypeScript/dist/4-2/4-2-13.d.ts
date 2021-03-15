@@ -6,3 +6,5 @@ declare type User13 = {
         [K in Question]?: Answer13;
     };
 };
+declare const userA13: User13;
+declare const x13: "mighty" | "lot" | "few" | "entirely" | undefined;
